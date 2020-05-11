@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <RootNamespace>RPGGame.GameData</RootNamespace>
+    <AssemblyName>RPGGame.GameData</AssemblyName>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <OutputPath>C:\Users\Jonatan Kans\RPG_Game\RPGGame\RPGGame\Assets\Plugins\</OutputPath>
+  </PropertyGroup>
+
+</Project>
