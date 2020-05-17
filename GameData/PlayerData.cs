@@ -15,9 +15,10 @@ namespace RPGGame.GameData
         public int PlayerSpeed { get; set; }
         public int PlayerMaxHp { get; set; }
         public int PlayerCurrentHp { get; set; }
-        public int RightHandEquipment { get; set; }
-        public int LeftHandEquipment { get; set; }
-        public int HeadEquipment { get; set; }
+        public string RightHandEquipment { get; set; }
+        public string LeftHandEquipment { get; set; }
+        public string HeadEquipment { get; set; }
+        public int StatPoints { get; set; }
 
         PlayerData()
         {
@@ -27,9 +28,10 @@ namespace RPGGame.GameData
             PlayerSpeed = 1;
             PlayerMaxHp = 20;
             PlayerCurrentHp = 20;
-            RightHandEquipment = 0;
-            LeftHandEquipment = 0;
-            HeadEquipment = 0;
+            RightHandEquipment = "Unequipped";
+            LeftHandEquipment = "Unequipped";
+            HeadEquipment = "Unequipped";
+            StatPoints = 4;
         }
 
         public static PlayerData Instance
